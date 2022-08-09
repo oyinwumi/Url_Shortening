@@ -81,7 +81,7 @@ a{
 .hero-section{
     display: flex;
     justify-content: space-between; 
-    margin: 70px 100px;
+    margin: 4.4rem 6.3rem;
 }
 
 h1{
@@ -331,7 +331,8 @@ h6{
     font-size: 15px;
 }
 
-@media (max-width: 500px) {
+
+@media (min-width: 320px) and (max-width: 500px){
    .nav-link , .btn-section{
     display: none;
     color: hsl(257, 7%, 63%); 
@@ -347,52 +348,71 @@ h6{
 
 .nav-section{
     background-color: hsl(274, 41%, 97%);
+    position: relative;
+    margin: 3rem 2rem;
+    
 }
 
    .hero-section{
     flex-direction: column-reverse;
+    margin: 3rem 2rem;
    }
    .hero-text{
     width: 100%;
     max-width: 500px;
    }
    h1{
-    font-size: 22px;
+    font-size: 24px;
     width: 100%;
-  
-    
    }
+     
+   .hero-paragraph{
+    font-size: 12px;
+}
    .hero-image{
-    max-width:80vh;
+    max-width:90vh;
     overflow-x: auto;
    scroll-behavior: auto;
    }
    .hero-bottom-container{
-    width: 80%;
-    margin: 40px;
+    width: 300px;
+    margin: 20px;
    }
    .hero-bottom{
     width: 100%;
    }
    input{
-    width:80%;
-    margin-left: 40px;
+    width:200px;
+    /* margin-left: 20px; */
     padding: 10px;
+    margin: 3rem 2rem;
+    
    }
-   /* .hero-bottom-btn{
-    padding: 6px;
-    width: 80%;
-    /* float: right; */
-    .advanced-stat-text{
-        width: 100%;
-       }
-       h2{
-        font-size: 26px;
-        width: 100%;
+    /* .hero-bottom-btn{
+    /* padding: 6px; */
+    /* margin-top: 15px; 
+    /* width: 100px; */
+  .advanced-stat{
+    width: 100%;
+    margin: 4rem 2rem;
+
+  }
+  h2{
+    font-size: 22px;
+}
+.advanced-paragraph{
+    font-size: 13px;
+}
+    h4{
+        font-size: 15px;
     }
+    .card-paragragh{
+        font-size: 18px;
+    }
+  
     .advanced-card-body{
      flex-direction: column-reverse;
-     width: 100%;
+     margin: 10px;
     
      
     }
@@ -405,28 +425,20 @@ h6{
     .advanced-start-card1, .advanced-start-card2, .advanced-start-card3 {
         width: 100%;
         border: 1px solid #fafafa;
-      text-align: justify;
+      text-align: center;
     }
     
-    .card-paragragh, h4{
-        width: 100%;
-    }
-    h4{
-        font-size: 18px;
-    }
-    .card-paragragh{
-        font-size: 15px;
-    }
+  
     .boost-link-image{
         min-width: 100vh;
        margin-left: auto;
        margin-right: auto;
     }
-
-.boost-link{
+    
+    .boost-link{
     overflow-x: hidden;
-}
-
+    }
+    
     h5{
         font-size: 25px;
     }
@@ -434,7 +446,7 @@ h6{
     flex-direction: column;
     }
      .features{
-flex-direction: column;
+    flex-direction: column;
     } 
     .footer-link{
      margin-right: 0;
@@ -448,7 +460,6 @@ flex-direction: column;
     } 
     .footer-icon-img{
         width: 10px;
-    }
-}
-
-  
+    }  
+   
+      }  
