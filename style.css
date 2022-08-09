@@ -375,7 +375,7 @@ h6{
    scroll-behavior: auto;
    }
    .hero-bottom-container{
-    width: 300px;
+    width: 100%;
     margin: 20px;
    }
    .hero-bottom{
