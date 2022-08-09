@@ -155,7 +155,8 @@ input::placeholder{
     width: 120px;
     border: none;
     cursor: pointer;
-    text-align: center;
+    align-items: center;
+    justify-content: center;
      
 }
 
@@ -234,8 +235,8 @@ h2{
 }
 
 .advanced-icon{
-position: absolute;
-bottom: 150px;
+position: relative;
+bottom: 50px;
 left: 20px;
 background-color:hsl(257, 27%, 26%) ;
 border-radius: 100%;
@@ -337,6 +338,7 @@ h6{
    }
    .hero-text{
     width: 100%;
+    max-width: 500px;
    }
    h1{
     font-size: 35px;
@@ -375,12 +377,12 @@ h6{
     
      
     }
-    .advanced-icon{
+    /* .advanced-icon{
         bottom: 200px;
         left: 20px;
         width: 30px;
         height: 30px;
-    }
+    } */
     .advanced-start-card1, .advanced-start-card2, .advanced-start-card3 {
         width: 100%;
         border: 1px solid;
