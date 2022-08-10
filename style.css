@@ -437,11 +437,14 @@ h6{
     }
     
     .boost-link{
-    /* overflow-x: hidden; */
+     overflow-x: hidden; 
     width: 100%;
     /* margin:  0 2rem  ; */
     }
     
+    .boost-link-image{
+        width: 100vh;
+    }
     h5{
         font-size: 23px;
         text-align: center;
