@@ -425,7 +425,7 @@ h6{
         height: 30px;
     } */
     .advanced-start-card1, .advanced-start-card2, .advanced-start-card3 {
-        width: 100%;
+        width: 16rem;
         border: 1px solid #fafafa;
        align-items:center ;
     }
