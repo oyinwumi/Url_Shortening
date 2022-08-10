@@ -350,13 +350,13 @@ h6{
 .nav-section{
     background-color: hsl(274, 41%, 97%);
     position: relative;
-    margin: 3rem 2rem;
+    margin: 1.9rem 0.75rem;
     
 }
 
    .hero-section{
     flex-direction: column-reverse;
-    margin: 3rem 2rem;
+    margin: 1.9rem 0.75rem;
    }
    .hero-text{
     width: 100%;
@@ -387,7 +387,7 @@ h6{
     width:200px;
     /* margin-left: 20px; */
     padding: 10px;
-    margin: 3rem 2rem;
+    margin: 1.9rem 0.75rem;
     
    }
     /* .hero-bottom-btn{
@@ -396,7 +396,7 @@ h6{
     /* width: 100px; */
   .advanced-stat{
     width: 100%;
-    margin: 4rem 2rem;
+    margin: 2rem 0.75rem;
 
   }
   h2{
@@ -446,8 +446,11 @@ h6{
         width: 100vh;
     }
     h5{
-        font-size: 23px;
+        font-size: 20px;
         text-align: center;
+    }
+    .boost-btn{
+        align-items: center;
     }
     .footer{
     flex-direction: column;
