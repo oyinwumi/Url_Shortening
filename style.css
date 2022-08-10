@@ -8,7 +8,7 @@ body{
     height: 100%;
     background-color: hsl(274, 41%, 97%);
     overflow-x: hidden;
-    overflow: auto;
+
 }
 .nav-section{
     display: flex;
@@ -371,7 +371,7 @@ h6{
     font-size: 12px;
 }
    .hero-image{
-    max-width:90vh;
+    max-width:80vh;
     overflow-x: auto;
     align-items: center;
    scroll-behavior: auto;
