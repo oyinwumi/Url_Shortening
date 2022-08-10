@@ -387,14 +387,21 @@ h6{
    input{
     width:180px;
     /* margin-left: 20px; */
+    padding-top: 30px;
     padding: 10px;
-    margin: 1.9rem 0.75rem;
+    margin: 2rem 0.75rem 0 0.75rem;
+    
     
    }
-    /* .hero-bottom-btn{
+     .hero-bottom-btn{
+        margin-right: 15px;
+    width: 80px;
+    padding: 6px;
+    margin-bottom: 15px;
     /* padding: 6px; */
     /* margin-top: 15px; 
     /* width: 100px; */
+}
   .advanced-stat{
     width: 100%;
     margin: 2rem 0.75rem;
