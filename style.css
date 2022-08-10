@@ -130,7 +130,7 @@ background-color: hsl(274, 41%, 97%);
 }
 
 .hero-bottom-container{
-    margin: 70px 100px; 
+    margin: 4.4rem 6.3rem;
     background-color: hsl(257, 27%, 26%);
     width: 60rem;
     height: 180px;
@@ -173,7 +173,7 @@ input::placeholder{
 }
 
 .advanced-stat{
-    margin: 70px 100px;
+    margin: 4.4rem 6.3rem;
     text-align: center;
     background-color: hsl(274, 41%, 97%);
 }
@@ -188,6 +188,7 @@ h2{
     font-weight: 500;
     color: hsl(257, 7%, 63%);
     margin-top: 15px;
+    margin-bottom: 30px;
 }
 
 .advanced-start-card1{
@@ -195,7 +196,7 @@ h2{
     padding: 10px;
      padding-bottom: 30px;
     border: 1px solid;
-    margin: 20px;  
+    margin: 20px 20px 20px 0px;  
     position: relative;
     text-align: justify;
     background-color: white;
@@ -211,7 +212,7 @@ h2{
      padding-bottom: 30px;
     border: 1px solid;
     margin: 20px; 
-    margin-top: 45px; 
+    margin-top: 40px; 
   position: relative;
   text-align: justify;
   background-color: white;
@@ -225,7 +226,7 @@ h2{
      padding-bottom: 30px;
     border: 1px solid;
     margin: 20px; 
-    margin-top: 65px; 
+    margin-top: 60px; 
   position: relative;
   text-align: justify;
   background-color: white;
@@ -235,6 +236,7 @@ h2{
 
 .advanced-card-body{
     display: flex;
+   
     
 }
 
